@@ -1,0 +1,22 @@
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+/* Fix outline-light hover & active text visibility */
+.navbar .btn-outline-light:hover,
+.navbar .btn-outline-light:focus,
+.navbar .btn-outline-light.active {
+  background-color: #fff !important;
+  color: #000 !important;        /* text black */
+  border-color: #fff !important;
+}
